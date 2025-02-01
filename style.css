@@ -1,0 +1,48 @@
+/* Mengatur font dan background */
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #009a79, #007b5e);
+  margin: 0;
+}
+
+/* Container utama */
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Efek hover */
+.container:hover {
+  transform: scale(1.05);
+}
+
+/* Gambar profil */
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #009a79;
+}
+
+/* Heading */
+h2 {
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+/* Paragraf */
+p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
